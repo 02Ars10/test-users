@@ -26,26 +26,24 @@ cd test-user
 Установка зависимостей
 
 npm install
-# или
+или
 yarn install
 
-Запуск в режиме разработки
+### Запуск в режиме разработки
 
 npm run dev
-# или
+или
 yarn dev
 
-Сборка для production
-
+### Сборка для production
 
 npm run build
-# или
+или
 yarn build
 
-Собранные файлы будут находиться в папке dist
-Предварительный просмотр production сборки
-bash
+### Собранные файлы будут находиться в папке dist
+### Предварительный просмотр production сборки
 
 npm run preview
-# или
+или
 yarn preview
