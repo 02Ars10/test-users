@@ -1,0 +1,42 @@
+._pagination {
+  padding: 20px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+._pageButton {
+  border: 1px solid #FFD1A1;
+  color: #000;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  &._active {
+    background-color: #FFD1A1;
+  }
+  &:hover {
+    background-color: #FFD1A1;
+  }
+}
+._navButton-left, ._navButton-right {
+  width: 50px;
+  height: 50px;
+  background-color: #FFD1A1;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+._navButton-right {
+  svg {
+    rotate: 180deg;
+  }
+}
+._navButton-left:disabled, ._navButton-right:disabled {
+  background-color: #FFE8D0;
+  cursor: default;
+}
+._dots {
+  user-select: none;
+}
